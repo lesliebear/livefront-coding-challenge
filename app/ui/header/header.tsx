@@ -1,11 +1,5 @@
 import styles from "./header.module.css";
-import { Poetsen_One } from "next/font/google";
-
-
-const poetsenOne = Poetsen_One({
-    weight: '400',
-    subsets: ['latin'],
-  });
+import { poetsenOne } from "@/app/ui/fonts";
 
 export default function Header() {
     return (
