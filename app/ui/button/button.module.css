@@ -1,0 +1,41 @@
+.btn {
+    background-color: #AD0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: #7A0000;
+}
+
+.scrollButton {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    background-color: #333333c2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.scrollButton:hover {
+    background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        font-size: medium;
+    }
+    
+}

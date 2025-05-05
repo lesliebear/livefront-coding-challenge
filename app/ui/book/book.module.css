@@ -1,0 +1,46 @@
+.detailWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+.image {
+    width: 20%;
+    height: auto;
+    margin: auto auto auto 20%;
+    /* max-height: 180px; */
+    /* object-fit: cover; */
+}
+
+.textWrapper {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5% 10%;
+    text-align: left;
+}
+
+.title {
+    margin-bottom: 7%;
+}
+
+.description {
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 768px) {
+    .detailWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .textWrapper {
+        width: 90%;
+        padding: 5% 5%;
+    }
+}

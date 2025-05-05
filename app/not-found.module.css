@@ -1,0 +1,17 @@
+.wrapper {
+    background-color: #3c3939;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    padding: 5%;
+
+}
+
+.text {
+    color: white;
+    font-size: 1.5rem;
+    text-align: right;
+    margin: 2% 0
+}

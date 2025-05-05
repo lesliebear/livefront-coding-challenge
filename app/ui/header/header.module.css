@@ -1,0 +1,17 @@
+.headerSection {
+    width: 100%;
+    min-height: 20vh;
+    background-color: #202020;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 768px) {
+    .headerSection {
+        min-height: 10vh;
+        font-size: large;
+    }
+}
